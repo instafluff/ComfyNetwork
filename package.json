@@ -1,0 +1,29 @@
+{
+  "name": "comfynetwork",
+  "version": "1.0.0",
+  "description": "The Comfiest Social Network on the Interwebs!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/instafluff/ComfyNetwork.git"
+  },
+  "keywords": [
+    "Comfy",
+    "Network",
+    "Instafluff",
+    "Corner",
+    "Fluffy"
+  ],
+  "author": "Instafluff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/instafluff/ComfyNetwork/issues"
+  },
+  "homepage": "https://github.com/instafluff/ComfyNetwork#readme",
+  "dependencies": {
+    "webwebweb": "^1.4.0"
+  }
+}
