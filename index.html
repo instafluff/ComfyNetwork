@@ -22,7 +22,7 @@
 
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <a class="navbar-brand" href="/">Azure AD B2C</a>
+    <a class="navbar-brand" href="/">Comfy Network!</a>
     <div class="btn-group ml-auto dropleft">
         <button type="button" id="signIn" class="btn btn-secondary" onclick="signIn()">Sign In</button>
         <button type="button" id="signOut" class="btn btn-success d-none" onclick="logout()">Sign Out</button>
@@ -31,13 +31,13 @@
 
   <!-- Content -->
   <div class="card">
-    <h5 class="card-header text-center">Getting an access token with Azure AD B2C and calling a Web API</h5>
+    <h5 class="card-header text-center">Welcome to the Comfy Network</h5>
     <div class="card-body text-center">
       <h5 id="label" class="card-title">Sign-in with Microsoft Azure AD B2C</h5>
       <pre id="response" class="card-text"></pre>
-      <button type="button" id="callApiButton" class="btn btn-primary d-none" onclick="passTokenToApi()">Call API</button>
+      <a href="https://comfycorner.b2clogin.com/comfy.network/oauth2/v2.0/authorize?p=B2C_1_UpdateStatus&client_id=ddc61bec-18a0-4133-b9c0-b739459caf55&nonce=defaultNonce&redirect_uri=https%3A%2F%2Fwww.instafluff.tv%2FComfyNetwork&scope=openid&response_type=code&prompt=login" id="callApiButton" class="btn btn-primary d-none">Update My Status</button>
     </div>
-  </div>
+</div>
 
   <!-- importing bootstrap.js and supporting js libraries -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

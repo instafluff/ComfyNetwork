@@ -5,14 +5,10 @@
 const b2cPolicies = {
     names: {
         signUpSignIn: "B2C_1_Signup",
-        forgotPassword: "b2c_1_reset"
     },
     authorities: {
         signUpSignIn: {
             authority: "https://comfycorner.b2clogin.com/comfycorner.onmicrosoft.com/B2C_1_Signup",
-        },
-        forgotPassword: {
-            authority: "https://fabrikamb2c.b2clogin.com/fabrikamb2c.onmicrosoft.com/b2c_1_reset",
         },
     },
 }
